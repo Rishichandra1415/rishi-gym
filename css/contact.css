@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fff;
+}
+header a{
+    display: inline-block;
+    padding:15px;
+    text-decoration: none;
+}
+
+header .active{
+    background-color: rgba(0,0, 0, 0.3);
+}
+header #logo{
+    font-size: 1.5em;
+}
+header nav li{
+    display: inline-block;
+}
+header nav a{
+    transition: background-color 0.4s;
+}
+
+header nav a:hover{
+    background-color: antiquewhite;
+}
+
+/* design for header ends */
+
+/* designs for intro section starts */
+#intro{
+    background-image: url(../images/adult-athlete-body-414029.jpg);
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+#intro .intro-text{
+    box-shadow: rgba(0,0, 0, 0.3);
+}
+#intro h1{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    background-color: rgba(0,0, 0, 0.3);
+    margin: 10px 50px;
+}
+
+#get-in-touch{
+    padding: 10px;
+    margin: 10px;
+}
+
+#get-in-touch h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+#get-in-touch p{
+    text-align: center;
+    padding: 10px;
+}
+#get-in-touch form{
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#get-in-touch form input,
+#get-in-touch form textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(216, 225, 233);
+}
+#get-in-touch form input:hover,
+#get-in-touch form textarea:hover,
+#get-in-touch form input:focus,
+#get-in-touch form textarea:focus{
+    background-color: rgb(178, 189, 199);
+}
+#get-in-touch form button{
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(57, 124, 102);
+    border:none;
+    border-radius: 2px;
+
+}
+#get-in-touch form  button:hover{
+    background-color:rgb(39, 116, 90);
+}
+
+.mapouter{
+    margin: 20px 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+/* ends of form area */
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+footer .services h5{
+    font-size: 2em;
+    color: #fff;
+    padding: 10px;
+}
+footer .services  ul{
+  list-style-type:none;
+}
+
+footer .services ul li{
+    padding: 5px;
+}
+footer a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer .contact-info p{
+    padding: 10px 0px;
+}
+
+footer .contact-form{
+    padding: 10px 20px 10px 0px;
+}
+
+footer .contact-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+footer .contact-form button{
+    padding: 10px 10px;
+    font-size: 1em;
+    border:none;
+    margin: 10px 0px;
+   
+    display: inline-block;
+}
+
+/* end of footer desing */
+
+
+/* responsive page */
+
+@media screen and (min-width:750px){
+    header #logo{
+        display: inline-block;
+        width: 30%;
+    }
+
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    #intro{
+        height: 400px;
+        width: 100%;
+    }
+    #intro .intro-text{
+        padding: 30px;
+    }
+    #intro .intro-text h1{
+        top: 200px;
+
+    }
+
+.mapouter{
+    margin: 20px;
+    width: 100%;
+}
+
+footer .services,
+    footer .contact-info{
+        display: inline-block;
+        width: 30%;
+    }
+    footer .contact-form input{
+        width: 70%;
+    }
+}

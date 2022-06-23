@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fff;
+}
+header a{
+    display: inline-block;
+    padding:15px;
+    text-decoration: none;
+}
+
+header .active{
+    background-color: rgba(0,0, 0, 0.3);
+}
+header #logo{
+    font-size: 1.5em;
+    display: inline-block;
+    width: 30%;
+}
+header nav{
+    display: inline-block;
+    width: 60%;
+}
+header nav li{
+    display: inline-block;
+}
+header nav a{
+    transition: background-color 0.4s;
+}
+
+header nav a:hover{
+    background-color: antiquewhite;
+}
+
+/* design for header ends */
+
+/* desings of intro */
+#intro{
+    background-color:rgba(111, 124, 120, 0.24);
+    text-align: center;
+}
+
+#intro .intro-text{
+    background-image: url(../images/adult-blur-close-up-241456.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+#intro .intro-text h1{
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    background-color: rgba(0,0, 0, 0.3);
+    margin: 10px 90px;
+}
+
+#intro .shortl-about-us{
+    margin: 10px;
+    padding: 10px ;
+    border-bottom: 2px solid rgb(141, 117, 117);
+}
+#intro .shortl-about-us h1{
+    padding: 10px;
+    font-size: 2em;
+}
+#intro .shortl-about-us p{
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.learn-more a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: rgba(61, 242, 248, 0.712);
+    padding: 15px;
+    margin: 10px 10px 10px;
+}
+
+/* end of about us intro section */
+
+/* starts of companyhistory section */
+
+#Company-History{
+    background-color: #fff;
+}
+#Company-History h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(141, 117, 117);
+    margin: 10px;
+}
+
+#Company-History .history-container{
+    padding: 0px;
+    margin: 10px 10px;
+}
+
+#Company-History .history-container .history{
+    display:inline-block;
+    width: 42%;
+    padding: 20px;
+    margin: 10px 10px;
+}
+#Company-History .history-container .history h4{
+    color: aquamarine;
+    font-size: 1.1em;
+}
+#Company-History .history-container .history h5{
+    color: aquamarine;
+    font-size: 1em;
+}
+
+#Company-History .learn-more{
+    text-align: center;
+}
+
+/* end of companay history section */
+
+/* starts of teams member design */
+
+#team{
+    background-color: rgba(111, 124, 120, 0.24);
+    text-align: center;
+}
+#team h1{
+   
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(141, 117, 117);
+}
+
+#team .team-containers{
+    margin: 20px 20px;
+    padding:20px;
+}
+#team .team-containers .team-name{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    margin: 20px;
+    background-color: #fff;
+}
+#team .team-containers .team-name img{
+    margin-top: 40px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+
+}
+/* end of team member section */
+
+/* starts of faq section */
+
+#faq h1{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(141, 117, 117);
+}
+
+#faq .faq-container{
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+#faq .faq-container .faq-item{
+    display: inline-block;
+    width: 42%;
+    margin: 20px;
+    padding: 10px;
+}
+#faq .learn-more {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ends of faq section */
+
+/* for footer section */
+footer{
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+footer .services h5{
+    font-size: 2em;
+    color: #fff;
+    padding: 10px;
+}
+footer .services  ul{
+  list-style-type:none;
+}
+
+footer .services ul li{
+    padding: 5px;
+}
+footer a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer .contact-info p{
+    padding: 10px 0px;
+}
+
+footer .contact-form{
+    padding: 10px 20px 10px 0px;
+}
+footer .contact-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+footer .contact-form button{
+    padding: 10px 10px;
+    font-size: 1em;
+    border:none;
+    margin: 10px 0px;
+   
+    display: inline-block;
+}
+footer .services ,
+footer .contact-info{
+    display: inline-block;
+    width: 30%;
+}
+
+footer .contact-form input{
+    width: 70%;
+}
+/* end for footer section */
+
+@media screen and (max-width:750px){
+    header #logo{
+        text-align:center;
+    }
+    #intro .intro-text{
+        background-image: url(../images/adult-blur-close-up-241456.jpg);
+        background-attachment: fixed;
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+   #intro .intro-text h1{
+    color: #fff;
+    padding: 10px;
+    top: 100px;
+    background-color: rgba(0,0, 0, 0.3);
+   }
+    #intro .shortl-about-us p{
+        text-align: none;
+        padding: 10px;
+        width: 100%;
+    }
+   
+    #Company-History .history-container .history{
+        display: inline-block;
+        width: 100%;
+
+    }
+    #team .team-containers .team-name{
+        display: inline-block;
+        width: 100%;
+        margin: 10px auto;
+    }
+    #faq .faq-container .faq-item{
+        display: inline-block;
+        width: 100%;
+    }
+}
